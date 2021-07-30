@@ -11,13 +11,12 @@ edition = "2018"
 ginepro = { path = "../ginepro" }
 
 tonic = { version = "0.4", features = ["tls"] }
-openssl = "0.10"
 tracing = { version = "0.1", features = ["log", "attributes"] }
 tracing-futures = "0.2"
 prost = "0.7"
 futures = "0.3.12"
 tokio-stream = { version = "0.1.2", features = ["net"] }
-tokio = { version = "1", features = ["full"] }
+tokio = "1.0"
 hyper = "0.14"
 tower-service = "0.3"
 rustls = { version =  "0.19", features = ["dangerous_configuration"] }
